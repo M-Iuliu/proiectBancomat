@@ -26,7 +26,7 @@ public class Bancnota1 implements Bancnote{
 				int remainder = summ.getSumm(user, atm) % 1 + diference;
 				System.out.println("Dispensing "+ maxNrBancnote +" 100 note(s)");
 				if(remainder !=0) { 
-				System.out.println("ATM has not egough money!");
+				System.out.println("Error: ATM has not egough money!");
 				System.out.println("Try again laiter.");
 				System.exit(0);
 				}
